@@ -1,0 +1,44 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+  background-color: #B3DCEA;
+}
+.header img{
+  height: 250px;
+  width: auto;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.btnCheck{
+  height: 50px;
+  width: 350px;
+  font-size: 25px;
+  color: white;
+  position: fixed;
+  border: 0;
+  top: 65%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  background-color: #F48674;
+
+}
+
+.btnCheck:hover{
+  cursor: pointer;
+  border: 1;
+}
+
+
+.imgGedung{
+  height: 100%;
+  width: auto;
+  fill:#91CAD8;
+  position: fixed;
+  transform: translate(0%, 0%);
+}
