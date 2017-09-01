@@ -4,7 +4,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #B3DCEA;
+  background-color: #F1F2F2;
 }
 
 nav ul{
@@ -45,11 +45,41 @@ span{
   margin-bottom: 10px;
 }
 .header img{
-  height: 150px;
+  height: 100px;
   width: auto;
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+button {
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  background-color: #6496c8;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px #27496d;
+  cursor: pointer;
   position: fixed;
-  top: 15%;
+  top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+
+button:hover, button.hover {
+  background-color: #417cb8
+}
+
+button:active, button.active {
+  background-color: #417cb8;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: default;
 }
